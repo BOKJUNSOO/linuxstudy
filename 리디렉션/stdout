@@ -1,0 +1,6 @@
+PING www.goolge.com (142.250.76.227) 56(84) bytes of data.
+64 bytes from nchkga-ad-in-f3.1e100.net (142.250.76.227): icmp_seq=1 ttl=111 time=42.8 ms
+
+--- www.goolge.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 42.782/42.782/42.782/0.000 ms
