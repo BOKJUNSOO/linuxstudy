@@ -1,0 +1,104 @@
+Dec 22 14:48:34 BRIAN systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 191 (rsyslogd) on client request.
+Dec 22 14:48:34 BRIAN systemd[1]: logrotate.service: Deactivated successfully.
+Dec 22 14:48:34 BRIAN systemd[1]: Finished Rotate log files.
+Dec 22 14:48:34 BRIAN dockerd[314]: time="2024-12-22T14:48:34.873211550+09:00" level=info msg="Starting up"
+Dec 22 14:48:34 BRIAN dockerd[314]: time="2024-12-22T14:48:34.968715729+09:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Dec 22 14:48:35 BRIAN dockerd[314]: time="2024-12-22T14:48:35.055170100+09:00" level=info msg="Loading containers: start."
+Dec 22 14:48:35 BRIAN snapd[193]: overlord.go:274: Acquiring state lock file
+Dec 22 14:48:35 BRIAN snapd[193]: overlord.go:279: Acquired state lock file
+Dec 22 14:48:35 BRIAN snapd[193]: daemon.go:250: started snapd/2.66.1 (series 16; classic; devmode; wsl) ubuntu/22.04 (amd64) linux/5.15.167.4-microsoft-stan.
+Dec 22 14:48:35 BRIAN systemd[1]: tmp-syscheck\x2dmountpoint\x2d1308154395.mount: Deactivated successfully.
+Dec 22 14:48:35 BRIAN snapd[193]: daemon.go:353: adjusting startup timeout by 55s (pessimistic estimate of 30s plus 5s per snap)
+Dec 22 14:48:35 BRIAN snapd[193]: backends.go:58: AppArmor status: apparmor not enabled
+Dec 22 14:48:35 BRIAN systemd[1]: Started Snap Daemon.
+Dec 22 14:48:35 BRIAN dbus-daemon[186]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.7' (uid=0 pid=193 comm="/usr/lib/snapd/snapd ")
+Dec 22 14:48:35 BRIAN systemd[1]: Starting Time & Date Service...
+Dec 22 14:48:35 BRIAN dbus-daemon[186]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Dec 22 14:48:35 BRIAN systemd[1]: Started Time & Date Service.
+Dec 22 14:48:35 BRIAN systemd[1]: Finished Wait until snapd is fully seeded.
+Dec 22 14:48:35 BRIAN systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Dec 22 14:48:35 BRIAN systemd-udevd[165]: Using default interface naming scheme 'v249'.
+Dec 22 14:48:35 BRIAN -m: i18n file is /snap/ubuntu-desktop-installer/1286/bin/subiquity/subiquitycore/i18n.py
+Dec 22 14:48:35 BRIAN -m: Final localedir is /snap/ubuntu-desktop-installer/share/locale
+Dec 22 14:48:35 BRIAN -m: switch_language en_US
+Dec 22 14:48:35 BRIAN dockerd[314]: time="2024-12-22T14:48:35.964172075+09:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.079403120+09:00" level=info msg="Loading containers: done."
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.096667169+09:00" level=warning msg="WARNING: No blkio throttle.read_bps_device support"
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.096700296+09:00" level=warning msg="WARNING: No blkio throttle.write_bps_device support"
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.096704279+09:00" level=warning msg="WARNING: No blkio throttle.read_iops_device support"
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.096707549+09:00" level=warning msg="WARNING: No blkio throttle.write_iops_device support"
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.096721202+09:00" level=info msg="Docker daemon" commit=41ca978 containerd-snapshotter=false storage-driver=overlay2 version=27.3.1
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.096953034+09:00" level=info msg="Daemon has completed initialization"
+Dec 22 14:48:36 BRIAN dockerd[314]: time="2024-12-22T14:48:36.156463398+09:00" level=info msg="API listen on /run/docker.sock"
+Dec 22 14:48:36 BRIAN systemd[1]: Started Docker Application Container Engine.
+Dec 22 14:48:36 BRIAN systemd[1]: Reached target Multi-User System.
+Dec 22 14:48:36 BRIAN systemd[1]: Reached target Graphical Interface.
+Dec 22 14:48:36 BRIAN systemd[1]: Starting Record Runlevel Change in UTMP...
+Dec 22 14:48:36 BRIAN systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Dec 22 14:48:36 BRIAN systemd[1]: Finished Record Runlevel Change in UTMP.
+Dec 22 14:48:36 BRIAN systemd[1]: Startup finished in 2.391s.
+Dec 22 14:48:36 BRIAN systemd[1]: dmesg.service: Deactivated successfully.
+Dec 22 14:48:36 BRIAN kernel: [    5.218151] WSL (2): Creating login session for bokjunsoo
+Dec 22 14:48:36 BRIAN systemd[1]: Created slice User Slice of UID 1000.
+Dec 22 14:48:36 BRIAN systemd[1]: Starting User Runtime Directory /run/user/1000...
+Dec 22 14:48:36 BRIAN systemd[1]: Finished User Runtime Directory /run/user/1000.
+Dec 22 14:48:36 BRIAN systemd[1]: Starting User Manager for UID 1000...
+Dec 22 14:48:36 BRIAN systemd[690]: Queued start job for default target Main User Target.
+Dec 22 14:48:36 BRIAN systemd[690]: Created slice User Application Slice.
+Dec 22 14:48:36 BRIAN systemd[690]: Reached target Paths.
+Dec 22 14:48:36 BRIAN systemd[690]: Reached target Timers.
+Dec 22 14:48:36 BRIAN systemd[690]: Starting D-Bus User Message Bus Socket...
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on GnuPG network certificate management daemon.
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on GnuPG cryptographic agent and passphrase cache.
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on debconf communication socket.
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on REST API socket for snapd user session agent.
+Dec 22 14:48:36 BRIAN systemd[690]: Listening on D-Bus User Message Bus Socket.
+Dec 22 14:48:36 BRIAN systemd[690]: Reached target Sockets.
+Dec 22 14:48:36 BRIAN systemd[690]: Reached target Basic System.
+Dec 22 14:48:36 BRIAN systemd[690]: Reached target Main User Target.
+Dec 22 14:48:36 BRIAN systemd[690]: Startup finished in 46ms.
+Dec 22 14:48:36 BRIAN systemd[1]: Started User Manager for UID 1000.
+Dec 22 14:48:36 BRIAN systemd[1]: Started Session 1 of User bokjunsoo.
+Dec 22 14:48:41 BRIAN systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Dec 22 14:48:41 BRIAN systemd[1]: e2scrub_all.service: Deactivated successfully.
+Dec 22 14:48:41 BRIAN systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Dec 22 14:49:05 BRIAN systemd[1]: systemd-timedated.service: Deactivated successfully.
+Dec 22 14:49:14 BRIAN systemd[1]: Starting Daily apt upgrade and clean activities...
+Dec 22 14:49:16 BRIAN systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Dec 22 14:49:16 BRIAN systemd[1]: Finished Daily apt upgrade and clean activities.
+Dec 22 14:49:20 BRIAN kernel: [   49.234731] hv_balloon: Max. dynamic memory size: 7938 MB
+Dec 22 14:53:35 BRIAN dbus-daemon[186]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.7' (uid=0 pid=193 comm="/usr/lib/snapd/snapd ")
+Dec 22 14:53:35 BRIAN systemd[1]: Starting Time & Date Service...
+Dec 22 14:53:35 BRIAN dbus-daemon[186]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Dec 22 14:53:35 BRIAN systemd[1]: Started Time & Date Service.
+Dec 22 14:53:38 BRIAN snapd[193]: storehelpers.go:1044: cannot refresh: snap has no updates available: "bare", "core22", "gtk-common-themes", "snapd", "ubuntu-desktop-installer"
+Dec 22 14:54:05 BRIAN systemd[1]: systemd-timedated.service: Deactivated successfully.
+Dec 22 14:58:31 BRIAN kernel: [  600.543727] mini_init (221): drop_caches: 1
+Dec 22 14:58:34 BRIAN rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="191" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Early/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Early/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Reporting/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Reporting/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Error/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Error/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Userdata/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Userdata/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Package/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Package/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Debconf/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Debconf/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Kernel/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Kernel/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Zdev/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Zdev/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Ad/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Ad/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Late/apply_autoinstall_config
+Dec 22 14:58:38 BRIAN subiquity_event.452[452]: subiquity/Late/apply_autoinstall_config
+Dec 22 14:58:39 BRIAN snapd[193]: storehelpers.go:1044: cannot refresh: snap has no updates available: "bare", "core22", "gtk-common-themes", "snapd", "ubuntu-desktop-installer"
+Dec 22 15:03:33 BRIAN systemd[1]: Starting Cleanup of Temporary Directories...
+Dec 22 15:03:33 BRIAN systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Dec 22 15:03:33 BRIAN systemd[1]: Finished Cleanup of Temporary Directories.
